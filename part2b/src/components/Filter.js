@@ -6,12 +6,14 @@ const Filter = (props) => {
       
     return(
         <>
+        <form>
         <div>Filter for name: 
         <input 
           value={searchName} 
           onChange={handleSearch} 
           ></input>
         </div> 
+        </form>
         </>
     )
 }

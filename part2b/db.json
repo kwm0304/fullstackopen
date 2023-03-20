@@ -1,0 +1,44 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "name": "Michael Jordan",
+      "number": "233-333-4444",
+      "id": 5
+    },
+    {
+      "name": "Scottie Pippen",
+      "number": "233-333-5555",
+      "id": 6
+    },
+    {
+      "name": "Steve Kerr",
+      "number": "333-333-3333",
+      "id": 7
+    },
+    {
+      "name": "Steph Curry",
+      "number": "444-777-8888",
+      "id": 8
+    }
+  ]
+}
