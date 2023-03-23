@@ -80,6 +80,7 @@ const App = () => {
       })
       .catch(error => {
         setErrorMessage('An error has occured.')
+        console.log(error.response.data.error)
       })
       setTimeout(() => {
         setErrorMessage(null)
