@@ -38,6 +38,8 @@ const App = () => {
     setSearchName(event.target.value)
   }
   
+  
+
   const cleaned = searchName.toLowerCase()
   
   const foundPeople = (cleaned.length < 0)
