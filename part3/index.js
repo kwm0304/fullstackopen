@@ -8,6 +8,7 @@ const len = process.argv.length
 const password = process.argv[2] || process.env.PASSWORD
 const Person = require('./models/person')
 const url = process.env.MONGODB_URI
+var morgan = require('morgan')
 
 
 mongoose.set('strictQuery', false)
@@ -32,10 +33,7 @@ app.use(cors())
 app.use(requestLogger)
 app.use(morgan("tiny"));
 
-
 morgan.token("body", function(req, res)  { JSON.stringify(req.body) });
-
-
 
 //use full quotation marks if name is going to include a space ie First Last
 const person = new Person({
